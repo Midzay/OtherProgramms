@@ -1,2 +1,3 @@
-# OtherProgramms
-OtherProgramms
+Другие программы
+- Android-Java - Приложение для телемедицны людей с  повышенным давлением
+- arduino - просто ардуино

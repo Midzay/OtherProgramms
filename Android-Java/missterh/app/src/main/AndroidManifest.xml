@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.maksimov.missterh">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HistoryActivity"
+            android:label="@string/title_activity_history"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Options"
+            android:label="@string/title_activity_options"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sinhroniz"
+            android:label="@string/title_activity_sinhroniz"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Notice"
+            android:label="Уведомления"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+
+
+        <receiver
+            android:name=".NotificationMessage"
+          >
+        </receiver>
+
+        <receiver
+            android:name=".NotificationMessageMedicament"
+           >
+
+        </receiver>
+
+
+        <service android:name=".MyService"
+            android:process=":MyService"
+
+            >
+        </service>
+
+        <service android:name=".AlarmService"
+
+            >
+        </service>
+
+        <activity
+            android:name=".SamochActivity"
+            android:label="Самочувствие"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+
+</manifest>

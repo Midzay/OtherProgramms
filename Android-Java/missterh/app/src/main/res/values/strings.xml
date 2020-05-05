@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">МИС \"СТЕРХ\"</string>
+    <string name="action_settings">Настройки</string>
+    <string name="history">История</string>
+    <string name="notification">Уведомления</string>
+    <string name="close">Закрыть</string>
+    <string name="back">Назад</string>
+    <string name="main_activity">Главный экран</string>
+    <string name="title_activity_main2">МИС \"СТЕРХ\" Авторизация </string>
+    <string name="title_activity_history">МИС \"СТЕРХ\" История </string>
+    <string name="title_activity_options">Настройки</string>
+    <string name="title_activity_sinhroniz">Синхронизация</string>
+    <string name="title_activity_samoch">SamochActivity</string>
+
+</resources>
